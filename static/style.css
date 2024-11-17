@@ -1,0 +1,108 @@
+body,
+html {
+    margin: 0;
+    background: #f6f9fc; /* Fondo principal */
+}
+
+.chat {
+    height: 100vh;
+    margin-top: auto;
+    margin-bottom: auto;
+    overflow-y: auto;
+}
+
+.card {
+    height: 90vh;
+    background-color: #ffffff; /* Fondo del contenedor */
+    border: 1px solid #b82c25; /* Borde */
+    border-radius: 15px; /* Redondear esquinas */
+}
+
+.card-header {
+    background-color: #b82c25; /* Cabecera roja */
+    color: #ffffff; /* Texto blanco */
+}
+
+.card-footer {
+    background-color: #b82c25; /* Pie roja */
+    border-top: 0 !important;
+}
+
+.type_msg {
+    background-color: #ffffff; /* Campo de texto blanco */
+    border: 1px solid #b82c25; /* Borde rojo */
+    color: #0056ac; /* Texto azul */
+    height: 60px !important;
+    overflow-y: auto;
+}
+
+.type_msg:focus {
+    box-shadow: none !important;
+    outline: 0px !important;
+}
+
+.send_btn {
+    border-radius: 0 15px 15px 0 !important;
+    background-color: #0056ac; /* Botón azul */
+    border: 0 !important;
+    color: #ffffff; /* Texto blanco */
+    cursor: pointer;
+}
+
+.msg_card_body {
+    overflow-y: auto;
+    background-color: #f6f9fc; /* Fondo de mensajes */
+}
+
+.msg_cotainer {
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 10px;
+    border-radius: 25px;
+    background-color: #b82c25; /* Mensajes del bot */
+    padding: 10px;
+    color: #ffffff; /* Texto blanco */
+    position: relative;
+}
+
+.msg_cotainer_send {
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 10px;
+    border-radius: 25px;
+    background-color: #0056ac; /* Mensajes del usuario */
+    padding: 10px;
+    color: #ffffff; /* Texto blanco */
+    position: relative;
+}
+
+.user_info span {
+    font-size: 20px;
+    color: #ffffff; /* Texto blanco */
+}
+
+.user_info p {
+    font-size: 10px;
+    color: #f6f9fc; /* Texto claro */
+}
+
+.online_icon {
+    background-color: #4cd137; /* Verde */
+    border: 1.5px solid white;
+}
+
+.offline {
+    background-color: #c23616 !important;
+}
+
+.user_img {
+    height: 70px;
+    width: 70px;
+    border: 1.5px solid #b82c25; /* Borde rojo */
+}
+
+.user_img_msg {
+    height: 40px;
+    width: 40px;
+    border: 1.5px solid #b82c25; /* Borde rojo */
+}
